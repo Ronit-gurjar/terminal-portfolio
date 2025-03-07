@@ -6,12 +6,14 @@ import { useGSAP } from "@gsap/react";
 import Neofetch from "./neofetch";
 import BootLoader from "./bootloader";
 import WhoAmI from "./whoami";
+import Socials from "./socials";
 
 const commands: Record<string, string | JSX.Element> = {
-    help: "Available commands: whoami, projects, contact, clear, neofetch",
+    help: "Available commands: whoami, projects, contact, socials, clear, neofetch",
     whoami: <WhoAmI/>,
-    projects: "Check out my GitHub: github.com/yourusername",
-    contact: "Reach me at: your@email.com",
+    projects: "Check out my GitHub: github.com/VinitGurjar",
+    contact: "Reach me at: vinitfagna@gmail.com",
+    socials: <Socials />, 
     clear: "clear",
     neofetch: <Neofetch />
   };
@@ -51,7 +53,7 @@ export default function Terminal() {
   }
 
   return (
-    <div className="min-h-screen bg-black text-green-400 font-mono p-5 flex justify-center items-center">
+    <div className="min-h-screen bg-black text-green-400 font-mono p-5 flex justify-center md:items-center sm:items-start">
     <div className="p-1 pt-2 rounded flex flex-col justify-center gap-0.5 items-center bg-gray-500">
        <span className="text-xl text-white font-mono"> OSS International ©2025</span>
       <div className="lg:w-[900px] lg:h-[600px] md:w-full md:h-auto md:max-h-screen mx-auto bg-gray-900 p-4 rounded-lg shadow-lg border border-gray-700 overflow-hidden scrollbar-thin scrollbar-thumb-green-500 scrollbar-track-black/50">

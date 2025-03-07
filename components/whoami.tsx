@@ -6,7 +6,11 @@ export default function WhoAmI(){
         <span className="text-white text-4xl font-extrabold">
          VINIT GURJAR
         </span>
-        <p> A System engineer and a tech-freak. </p>
+        <p> 
+            A System engineer and a tech-freak.
+            Love working with backend and databases.
+            Currently learning and building with "Go".
+        </p>
         <span>---------------------------------</span>
         </div>
     );
