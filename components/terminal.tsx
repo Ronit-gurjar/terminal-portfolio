@@ -54,7 +54,7 @@ export default function Terminal() {
     <div className="min-h-screen bg-black text-green-400 font-mono p-5 flex justify-center items-center">
     <div className="p-1 pt-2 rounded flex flex-col justify-center gap-0.5 items-center bg-gray-500">
        <span className="text-xl text-white font-mono"> OSS International ©2025</span>
-      <div className="w-full max-w-3xl h-auto min-h-screen mx-auto bg-gray-900 p-4 rounded-lg shadow-lg border border-gray-700 overflow-hidden scrollbar-thin scrollbar-thumb-green-500 scrollbar-track-black/50">
+      <div className="lg:w-[900px] lg:h-[600px] md:w-full md:h-auto md:max-h-screen mx-auto bg-gray-900 p-4 rounded-lg shadow-lg border border-gray-700 overflow-hidden scrollbar-thin scrollbar-thumb-green-500 scrollbar-track-black/50">
         <p className="text-lg">Welcome to My Terminal Portfolio!</p>
         <p>Type `help` to see available commands.</p>
 
@@ -65,7 +65,7 @@ export default function Terminal() {
         
           {history.map((item, index) => (
             <div key={index}>
-              <p className="text-green-300">$ {item.command}</p>
+              <p className="text-green-300">[VinitGurjar@Portfolio~] $ {item.command}</p>
               {item.output}
             </div>
           ))}
