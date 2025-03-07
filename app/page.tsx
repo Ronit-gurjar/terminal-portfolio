@@ -18,7 +18,7 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Vinit Gurjar",
-    "url": "https://yourdomain.com",
+    "url": "https://vinit-gurjar-dev.vercel.app",
     "sameAs": [
       "https://github.com/VinitGurjar",
       "https://www.linkedin.com/in/vinitgurjar",
