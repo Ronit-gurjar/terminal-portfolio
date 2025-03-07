@@ -2,12 +2,12 @@ import { Metadata } from "next";
 import Terminal from "@/components/terminal";
 
 export const metadata: Metadata = {
-  title: "Vinit Gurjar - Terminal Portfolio",
+  title: "Vinit Gurjar - Portfolio",
   description: "A unique terminal-style portfolio showcasing skills and projects.",
   keywords: ["developer portfolio", "terminal portfolio", "frontend developer", "React", "Next.js"],
   authors: [{ name: "Vinit Gurjar" }],
   openGraph: {
-    title: "Vinit Gurjar - Terminal Portfolio",
+    title: "Vinit Gurjar - Portfolio",
     description: "A unique terminal-style portfolio.",
     type: "website"
   },
