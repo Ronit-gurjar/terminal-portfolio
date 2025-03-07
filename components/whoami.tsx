@@ -9,7 +9,7 @@ export default function WhoAmI(){
         <p> 
             A System engineer and a tech-freak.
             Love working with backend and databases.
-            Currently learning and building with "Go".
+            Currently learning and building with &quot;Go&quot;.
         </p>
         <span>---------------------------------</span>
         </div>
