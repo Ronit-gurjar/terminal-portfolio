@@ -25,7 +25,7 @@ const BootLoader = ({ onComplete }: { onComplete: () => void }) => {
         clearInterval(interval);
         setTimeout(onComplete, 1000);
       }
-    }, 600);
+    }, 700);
 
     return () => clearInterval(interval);
   }, [onComplete]);
